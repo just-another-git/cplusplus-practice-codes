@@ -1,6 +1,11 @@
+// problem
+
 #include <bits/stdc++.h>
-#include <string>
 using namespace std;
+
+bool gg(string s, string t) 
+{
+}
 
 int main() 
 {
