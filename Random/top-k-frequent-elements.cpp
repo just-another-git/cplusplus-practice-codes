@@ -22,6 +22,13 @@ vector<int> topKFrequent(vector<int>& nums, int k)
 		else freq.emplace_back(nums[i], 1);
 	}
 	sort(freq.begin(), freq.end(), comp);
+	vector<int> gg;
+	gg.reserve(k);
+	for(int i=0;i<k;i++)
+	{
+		gg.emplace_back(freq[i].first);
+	}
+	return gg;
 }
 
 int main() 
